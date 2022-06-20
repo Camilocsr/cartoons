@@ -1,0 +1,49 @@
+/*Regrlas fundamentales de box model css*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fascinate', cursive;
+  font-family: 'PT Serif', serif;
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.vv{
+  font-size: 100px;
+}
+
+.caja1{
+  width: 600px;
+  height: 600px;
+  background-color: pink;
+  border: solid violet;
+  padding: 10px 60PX 10px 60px;
+  margin: 10px;
+  background-image: url(../images/pantera_rosa.jpg);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+
+.caja2{
+  width: 600px;
+  height: 600px;
+  background-color: pink;
+  border: solid violet;
+  padding: 10px 60PX 10px 60px;
+  margin: 10px;
+  background-image: url(../images/simpsons.jpg);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
